@@ -1,2 +1,2 @@
 # 2fa.day
-It's World 2FA Day on 2 FebAry!
+It's World 2FA Day on 2 FebuAry!

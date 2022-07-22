@@ -1,4 +1,4 @@
-# 2fa.day
+# [2fa.day](https://2fa.day) 
 It's World 2FA Day on 2 FebuAry!
 Right after "Change your 1FA day" on the 1st of February.
 

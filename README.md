@@ -1,8 +1,8 @@
 # [2fa.day](https://2fa.day) 
-It's World 2FA Day on 2 FebuAry!
-Right after "Change your 1FA day" on the 1st of February.
+World 2FA Day is on 2 FebuAry!
+IT's after "Change your 1FA day" which is on the 1st of February.
 
-02-02-2022 is the first annual 2FA Day.
+02-02-2022 was the first annual 2FA Day.
 
 What is 2FA?
 

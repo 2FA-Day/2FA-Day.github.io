@@ -1,22 +1,24 @@
-<!DOCTYPE html>
-<html class=" js borderradius boxshadow textshadow cssgradients fontface" lang="en-US"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style type="text/css" id="dark-mode-custom-style" lang="en"></style><style type="text/css" id="dark-mode-native-style" lang="en"></style><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=640">
-    <meta name="msvalidate.01" content="182E94EECAE42901A5E9A526B0DA4803" />
-    <link rel="stylesheet" href="index_files/style.css" media="screen">
-    <link rel="stylesheet" href="index_files/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="index_files/non-screen.css" media="handheld, only screen and (max-device-width:640px)">
+<!DOCTYPE html> 
+<html> 
+<head> 
 
-    <script src="index_files/modernizr.js"></script>
-    <script src="index_files/jquery-1.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="index_files/headsmart.js"></script>
-    <script>
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=640">
+<meta name="msvalidate.01" content="182E94EECAE42901A5E9A526B0DA4803" />
+<link rel="stylesheet" href="index_files/style.css" media="screen">
+<link rel="stylesheet" href="index_files/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+<link rel="stylesheet" href="index_files/non-screen.css" media="handheld, only screen and (max-device-width:640px)">
+
+<script src="index_files/modernizr.js"></script>
+<script src="index_files/jquery-1.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="index_files/headsmart.js"></script>
+<script>
+  $(document).ready(function () {
+	$('#main_content').headsmart()
+  })
+</script>
 
 <title>2nd of FebruAry = 2FA Day</title>
 <meta property="og:title" content="2nd of FebruAry = World 2FA Day">
@@ -40,33 +42,116 @@
 
 <!-- end custom head snippets -->
 
-  </head>
+<style> 
+/* Create text boxes */ 
+.text-box {
+    width: 800px;
+    max-width: 90%;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    border: 1px solid silver;
+    margin: 10px auto;
+    text-align: justify;
+    box-sizing: border-box;
+}
 
-  <body>
-    <div class="shell">
+.text-box h1 {
+    font-size: 1em;
+}
 
-      <section id="main_content">
+/* Navigation Bar */ 
+.navbar { 
+    background-color: #333; 
+    overflow: hidden; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+} 
+body {
+	font-family: Arial, sans-serif;
+	text-align: left;
+      }
+/* Navigation Links */ 
+.navbar a { 
+    color: white; 
+    float: left; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+} 
 
-            <h1>World 2FA Day</h1>
+/* Active Link */ 
+.navbar a.active { 
+    background-color: #4CAF50; 
+    color: white; 
+} 
 
-              <h2 id="improve-your-security" class="header-level-1">Improve your security with an extra layer of protection, today!</h2>
-              <h3 id="markdown" class="header-level-2">When is 2FA day?</h3>
-              Each year on the 2nd of February, World 2FA Day is celebrated.<br/>
-              The 2nd of Febuary, also known as 2nd FActor day, has been chosen because it has 2FA in the date itself: <b><u>2</u></b>nd of <b><u>F</u></b>ebru<b><u>A</u></b>ry.<br/>
-              It's celebrated right after "<a href="https://www.checkiday.com/e1175a8cc610318c9af8a0daafbe79a6/change-your-password-day">Change your 1FA day</a>" on the 1st of February.<br/>
-              02-02-2022 was the first annual 2FA Day.<br/>
-              
-<h3 id="markdown" class="header-level-2">What is 2FA?</h3>
-          <p>2FA (or MFA) stands for 2 (or multi) factor authentication. It's an extra layer of security to add when having to login to a certain services, in addition to your password.<br/>
-             More information about 2FA on <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">Wikipedia</a>.
-          </p>
+/* Hover Effect */ 
+.navbar a:hover { 
+    background-color: #555; 
+    color: white; 
+} 
 
-<h3 id="markdown" class="header-level-2">Where can I enable 2FA?</h3>
+/* Main Content */ 
+.main { 
+    margin-top: 60px; 
+    text-align: left; 
+	padding: 10px;
+} 
 
-          <ul>
+/* Responsive Design */ 
+@media screen and (max-width: 600px) { 
+    .navbar a { 
+        float: none; 
+        display: block; 
+    } 
+} 
+
+/* Create 2 columns */ 
+.twocolumns ul:first-of-type { 
+    columns: 2;
+    column-gap: 20px;
+} 
+
+</style> 
+</head> 
+<body> 
+<div class="navbar"> 
+      <a href="#when">When</a>
+      <a href="#what">What</a>
+      <a href="#purpose">Purpose</a>
+      <a href="#where">Where</a>
+	  <i><a href="#">Improve your security with an extra layer of protection, not only on 2FA Day but every day!</a></i>
+</div> 
+<div class="main"> 
+<div class="text-box" id="when">
+        <h1>When is 2FA day?</h1>
+World 2FA Day is celebrated annually on February 2nd. The choosen date, also known as 2nd FActor Day, was chosen because it contains the abbreviation "2FA" in the date (<u>2</u>nd of <u>F</u>ebru<u>A</u>ry). 
+It is celebrated following "<a href="https://www.checkiday.com/e1175a8cc610318c9af8a0daafbe79a6/change-your-password-day">Change your 1FA day</a>" on February 1st.<br/>
+The first annual 2FA Day was observed on February 2nd, 2022.</div>
+      <div class="text-box" id="what">
+        <h1>What is 2FA?</h1>
+		2FA (Two-Factor Authentication), also known as MFA (Multi-Factor Authentication), is a security measure that adds an extra layer of protection to your online accounts, in addition to your password.
+		By requiring not just a password, but also something you have, such as a phone or security key, 2FA helps to prevent unauthorized access to your personal and financial information.<br/>
+		Implementing 2FA can greatly enhance the security of your online accounts and protect against identity theft. 
+        More information about 2FA on <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">Wikipedia</a>.
+      </div>
+      <div class="text-box" id="purpose">
+        <h1>What is the purpose of 2FA Day?</h1>
+		The purpose of 2FA Day is to educate people about the benefits of using 2FA, and encourage them to enable it on their online accounts. By using 2FA, individuals and organizations can greatly reduce the risk of their accounts being compromised by hackers and cybercriminals.</br>
+		By promoting the use of 2FA, organizations and individuals can work together to improve the overall security of the internet and protect personal information from being stolen or misused.
+		</div>
+      <div class="text-box" id="where">
+        <h1>Where can I enable 2FA?</h1>
+		2FA or MFA, is a crucial security measure for your online accounts. 
+		To enable 2FA, you can check the following list of popular platforms and services where it can be enabled. 
+		By enabling 2FA on these platforms, you can better protect your personal and business information and prevent unauthorized access to your accounts:<br/>
+		<div class="twocolumns">
+             <ul>
               <li><a href="https://support.1password.com/one-time-passwords/">1Password</a></li>
               <li><a href="https://support.apple.com/en-us/HT204915">Apple ID</a></li>
               <li><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=G3PWZPU52FKN7PW4">Amazon</a></li>
+              <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-mfasettings">Azure</a></li>
               <li><a href="https://bitwarden.com/help/setup-two-step-login/">Bitwarden</a></li>
               <li><a href="https://support.cloudflare.com/hc/en-us/articles/200167906-Securing-user-access-with-two-factor-authentication-2FA-">Cloudflare</a></li>
               <li><a href="https://support.discord.com/hc/en-us/articles/219576828-Setting-up-Two-Factor-Authentication">Discord</a></li>
@@ -74,28 +159,20 @@
               <li><a href="https://www.epicgames.com/help/en-US/epic-accounts-c74/account-security-c112/twofactor-authentication-2fa-and-how-to-enable-it-a3218">Epic games</a></li>
               <li><a href="https://help.evernote.com/hc/en-us/articles/208314238-Set-up-two-step-verification">Evernote</a></li>
               <li><a href="https://www.facebook.com/help/148233965247823">Facebook</a></li>
-              <ul>
-                  <li><a href="https://help.instagram.com/566810106808145">Instagram</a></li>
-                  <li><a href="https://faq.whatsapp.com/general/verification/how-to-manage-two-step-verification-settings/?lang=en">WhatsApp</a></li>
-              </ul>
               <li><a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication">GitHub</a></li>
               <li><a href="https://support.google.com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DDesktop">Google</a></li>
+              <li><a href="https://help.instagram.com/566810106808145">Instagram</a></li>
               <li><a href="https://my.isc2.org/s/mfa-preference">ISC&sup2;</a></li>
               <li><a href="https://www.lastpass.com/solutions/authentication/two-factor-authentication">LastPass</a></li>
-              <li>Microsoft</li>
-              <ul>
-                  <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-mfasettings">Azure</a></li>
-                  <li><a href="https://www.linkedin.com/help/linkedin/answer/544/turn-two-step-verification-on-and-off?lang=en">LinkedIn</a></li>
-                  <li><a href="https://support.microsoft.com/en-us/account-billing/turning-two-step-verification-on-or-off-for-your-microsoft-account-b1a56fc2-caf3-a5a1-f7e3-4309e99987ca">Microsoft account</a> or even go <a href="https://www.microsoft.com/security/blog/2021/09/15/the-passwordless-future-is-here-for-your-microsoft-account/">passwordless</a></li>
-                  <li><a href="https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide">Office 365</a></li>
-                  <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-nps-extension-rdg#configure-multi-factor-authentication">Windows RDP with Azure MFA</a></li>
-              </ul>
+              <li><a href="https://www.linkedin.com/help/linkedin/answer/544/turn-two-step-verification-on-and-off?lang=en">LinkedIn</a></li>
+              <li><a href="https://support.microsoft.com/en-us/account-billing/turning-two-step-verification-on-or-off-for-your-microsoft-account-b1a56fc2-caf3-a5a1-f7e3-4309e99987ca">Microsoft account</a> or go <a href="https://www.microsoft.com/security/blog/2021/09/15/the-passwordless-future-is-here-for-your-microsoft-account/">passwordless</a></li>
+              <li><a href="https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide">Office 365</a></li>
               <li><a href="https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Set-Up-2-Step-Authentication-named-two-step-verification-in-the-Nintendo-Account-settings-for-a-Nintendo-Account-1466677.html">Nintendo</a></li>
               <li><a href="https://www.paypal.com/us/smarthelp/article/what-is-2-step-verification-faq4057">PayPal</a></li>
               <li><a href="https://help.pinterest.com/en/article/two-factor-authentication">Pinterest</a></li>
               <li><a href="https://protonmail.com/support/knowledge-base/two-factor-authentication/">ProtonMail</a></li>
               <li><a href="https://www.reddit.com/r/announcements/comments/7spq3s/protect_your_account_with_twofactor_authentication/">Reddit</a></li>           
-              <li><a href="https://security.salesforce.com/mfa">Salesforce</a> has made 2FA mandatory for customers and employees</li>
+              <li><a href="https://security.salesforce.com/mfa">Salesforce</a> enabled 2FA for customers &amp; employees</li>
               <li><a href="https://slack.com/help/articles/204509068-Set-up-two-factor-authentication">Slack</a></li>
               <li><a href="https://support.snapchat.com/a/enable-login-verification">Snapchat</a></li>
               <li><a href="https://help.steampowered.com/en/faqs/view/6891-E071-C9D9-0134">Steam</a></li>
@@ -103,7 +180,13 @@
               <li><a href="https://www.tiktok.com/safety/youth-portal/keep-your-account-secure?lang=en">TikTok</a></li>
               <li><a href="https://help.twitter.com/en/managing-your-account/two-factor-authentication">Twitter</a></li>
               <li><a href="https://www.ubisoft.com/en-us/help/account/article/securing-your-account-with-2-step-verification-mobile-app/000063986">Ubisoft</a></li>
+              <li><a href="https://faq.whatsapp.com/general/verification/how-to-manage-two-step-verification-settings/?lang=en">WhatsApp</a></li>
+              <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-nps-extension-rdg#configure-multi-factor-authentication">Windows RDP with Azure MFA</a></li>
               <li><a href="https://help.yahoo.com/kb/SLN5013.html">Yahoo!</a></li>
           </ul>
+		  </div>
           For a more complete list of websites and their support for 2FA can be found in the <a href="https://2fa.directory">2FA Directory</a>.
-</body></html>
+</div> 
+</div>
+</body> 
+</html>

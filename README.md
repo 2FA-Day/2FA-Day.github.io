@@ -1,6 +1,6 @@
 # [2fa.day](https://2fa.day) 
 ## When is 2FA Day?
-World 2FA Day is on 2 FebuAry!<br>
+World 2FA Day is on 2 FebuAry.<br>
 IT's after "Change your 1FA day" which is on the 1st of February.<br>
 02-02-2022 was the first annual 2FA Day.
 

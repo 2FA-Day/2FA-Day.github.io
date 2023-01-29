@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Come and celebrate 2FA Day
+NAME:Come and celebrate 2FA Day
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20230129T175346Z
+UID:1675014254847-61823@ical.marudot.com
+DTSTART;VALUE=DATE:20230202
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=2
+DTEND;VALUE=DATE:20230203
+SUMMARY:2FA Day
+URL:https://2fa.day
+DESCRIPTION:World 2FA Day is celebrated annually on February 2nd and is a day to promote the use of Two-Factor Authentication (2FA). People can spread awareness about the benefits of 2FA to their friends\, family\, and colleagues. Organizations can be encouraged to implement 2FA by customers and members reaching out and expressing interest or sharing information and resources.
+LOCATION:https://2fa.day
+END:VEVENT
+END:VCALENDAR
